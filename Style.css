@@ -1,0 +1,248 @@
+body{
+    background-color: rgb(194, 236, 255);
+    font-family: Georgia, serif;
+    max-width: 100%;
+    min-width: 10%;
+    
+    
+} 
+  
+.Logo{
+    width: 300px;
+    height: 180px;
+    box-shadow: -1px -1px 20px   8px  maroon;
+    border-radius: 55px;
+
+    } 
+    .Logo:hover{
+
+        width: 350px;
+        height: 200px;
+        box-shadow: -1px -1px 20px   8px  #0066CC;
+        
+        
+
+    }  
+.Name{
+    text-align: center;
+    text-transform: uppercase;
+    color: oldlace;
+    font-size: 50px;
+    text-shadow: 6px 8px 11px maroon ;
+    
+}
+.Name:hover{
+
+    color: maroon;
+   font-size: 60px;
+   text-decoration: underline;    
+}
+
+#Com:hover{
+    color: maroon;
+    font-size: 60px;
+    text-decoration: underline;    
+ }
+
+
+#Com{
+    text-align: center;
+    text-transform: uppercase;
+    color: oldlace;
+    font-size: 50px;
+    word-spacing: 80px;
+    text-shadow: 7px 2px  9px  maroon ;
+    
+}
+/* 
+@media only screen and (max-width: 200px) {
+
+.Color{
+    width: 100px;
+}
+    
+} */
+
+.Color{
+    background-color: rgb(62, 228, 214);
+    border: 2px;
+    box-shadow: -1px -1px 20px   9px  maroon;
+    max-width: 100%;
+    min-width: 10%;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.All{
+    color: maroon;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+#UserName{
+    padding: 6px;   
+    
+    
+   }
+   input:hover{
+    box-shadow: 4px 6px 15px maroon ;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: -10px 10px 10px 30px;
+    
+   } 
+
+   select:hover{
+    box-shadow: 4px 6px 15px maroon ;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: -10px 10px 10px 30px;
+
+
+   }
+textarea:hover{
+    box-shadow: 4px 6px 15px maroon ;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#FatherName{
+    padding: 6px;
+}
+#DOB{
+    padding: 6px;
+}
+#Email{
+    padding: 6PX;
+}
+#MobileNumber{
+padding: 6PX;
+}
+#Address{
+    padding: 6px;
+}
+#City{
+    padding: 6px;
+}
+
+#PinCode{
+    padding: 6px;
+}
+#State{
+    padding: 6px;
+}
+#Country{
+    padding: 6px;
+}
+#Hobbies{
+    padding: 6px;
+}
+.checkbox{
+    color: maroon;
+    
+}
+#Others{
+    padding: 6px;
+}
+.M{
+    color: maroon;
+}
+
+.F{
+    color: maroon;
+}
+
+
+td{
+    padding: 6px;
+    
+}
+.TR3{
+    
+    color: maroon;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 25px;
+    text-transform: uppercase;        
+}
+.Space{
+    color: maroon;
+        padding: 20px;
+        font-weight: bold;
+       font-size: 15px;    
+}
+
+#QUALI{
+    padding: 6px;
+
+}
+.X{
+    color: maroon;
+    font-family: sans-serif;
+}
+
+
+#Submit:hover{
+    background-color: rgb(32, 226, 32);
+    font-size: 25px;
+    
+}
+#Submit:active{
+    background-color: #0066CC;
+
+}
+#Submit{
+    
+  font-size: 16px;
+  padding: 10px 20px ;
+ border: none;
+ border-radius: 10px;
+box-shadow: 1px -1px 16px maroon;
+ font-weight: bold;
+ cursor: pointer;
+ background-color: black;
+ color: white;
+}
+.footer{
+    
+    font-size: 25px;
+    color: lightslategray;
+    text-shadow:1px 5px 15px maroon;
+    font-style: italic;
+    padding: 10px 15px;
+    text-decoration: underline;
+
+}
+
+.Container{
+
+    display: flex;
+    
+    font-family: sans-serif;
+    font-size: 50px;
+    height: 10vh;
+    color: maroon;
+    align-items: center;
+    justify-content: end;
+    font-weight: bold;
+    position: absolute;
+    right: 1px;
+
+  
+    
+    
+    
+}
+
+.Container:hover{
+
+    text-decoration: underline;
+    color: #0066CC
+;
+    
+
+}
